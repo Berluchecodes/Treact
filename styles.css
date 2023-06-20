@@ -204,6 +204,7 @@ input {
   text-align: center;
   border: none;
   color: #6415ff;
+  display: none;
 }
 
 
@@ -222,7 +223,7 @@ input {
   display: none;
 }
 .menu--open .menu__backdrop {
-  display: flex;
+  display: flex; 
 }
 
 .menu__links {
@@ -992,4 +993,7 @@ text-decoration: none;
     display: none;
   }
   
+  .btn__menu {
+    display: block;
+  }
 }
